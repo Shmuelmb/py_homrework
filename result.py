@@ -102,3 +102,10 @@ while input_number < 8:
         for i in SongsDict:
             if i.startswith('*' + song_name):
                 print(SongsDict[i])
+        break
+    elif input_number == 5:
+        song_name = input("enter name of song: ")
+        for i in SongsDict:
+            if i.startswith('*' + song_name):
+                print(SongsDict[i])
+        break

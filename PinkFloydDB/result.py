@@ -1,5 +1,4 @@
 import re
-import pprint
 
 # Read txt file
 f = open("Pink_Floyd_DB.txt", "r")

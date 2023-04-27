@@ -1,11 +1,20 @@
-#The Piper At The Gates Of Dawn::1967
-*Lucifer Sam::Syd Barrett::03:07::Lucifer Sam, Siam cat
-A
-*Matilda mother::Syd Barrett::03:07::There was a king who ruled the land
-His majesty was in command
-awedfawdawd
-#A Saucerful of Secrets::1968
-*Let There Be More Light::Waters::05:38::Far, far, far away - way 
-kkk
-*abc
-s
+#A
+*a
+*b
+*c
+*e
+#B
+*1
+*2
+*3
+*4
+#C
+*11
+*22
+*33
+*44
+#D
+*aa
+*bb
+*cc
+*ee

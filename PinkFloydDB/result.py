@@ -1,7 +1,7 @@
 import re
 
 # Read txt file
-f = open("Pink_Floyd_DB.txt", "r")
+f = open('Pink_Floyd_DB.txt', "r") #If this doesn't work enter your local path
 file = f.readlines()
 f.close()
 
@@ -82,10 +82,8 @@ def getAlbums():
 def getSongsInAlbums(album):
     for i in AlbumsDict:
         if album in i[:-6]:
-            print(AlbumsDict[i])
-        else:
-            print('there is no such album')
-            break
+            for y in AlbumsDict[i]: print(y)
+     
 
 
 def findAlbumBySong(song):
@@ -157,7 +155,7 @@ while input_number < 8:
 
     elif input_number == 6:  # Find song by word
         word = input("enter word: ")
-        print(findSongByWord(word))
+        findSongByWord(word)
         input_number = int(input("enter number: "))
 
     elif input_number == 7:  # Search for a word in a songs lyrics

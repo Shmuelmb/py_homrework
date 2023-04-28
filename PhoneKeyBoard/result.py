@@ -20,6 +20,3 @@ def phoneKeyBoard(digits):
                 new_result.append(combination + letter)
         result = new_result
     return result
-
-
-print(phoneKeyBoard('8924'))
